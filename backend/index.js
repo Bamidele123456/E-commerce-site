@@ -41,6 +41,9 @@ app.get('/test', (req, res) => {
   res.send('API is running...');
 });
 
+app.get('/', (req, res) => {
+  res.send('API is running...');
+});
 
 
 // Start server
